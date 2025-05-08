@@ -105,6 +105,7 @@ pipeline {
                         # aws eks --region us-east-1 update-kubeconfig --name eks-cluster
                         # kubectl apply -f ${K8S_MANIFESTS}/deployment.yaml
                         # kubectl apply -f ${K8S_MANIFESTS}/service.yaml
+                        # kubectl apply -f ${K8S_MANIFESTS}/hpa.yaml
                         '''
                     }
                 }
