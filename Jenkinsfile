@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/saisanthosh934/pavan-project.git'
+                git branch: 'main', url: 'https://github.com/saipavan07022000/reach-app-cicd.git'
             }
         }
 
